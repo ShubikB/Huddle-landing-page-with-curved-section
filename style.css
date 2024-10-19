@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6{
 
 .hero{
     border: 2px solid black;
-    flex-flow: column;
+    /* flex-flow: column; */
 }
 
 .hero h1{
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
-.hero p{
+.hero-container p{
     font-size: 20px;
     text-align: center;
     width: 600px;
@@ -80,3 +80,13 @@ h1, h2, h3, h4, h5, h6{
     width: 400px;
 
 }
+
+.hero-container{
+    width: 80%;
+    height: auto;
+    border: 5px solid red;
+
+    flex-flow: column;
+}
+
+
