@@ -21,31 +21,41 @@ body{
 
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family:"Poppins", sans-serif;
-    font-style: normal;
-}
+/* Pre defining The classes */
 
 .flex{
     display: flex;
 }
 
+
 .flex-center{
     display:flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family:"Poppins", sans-serif;
+    font-style: normal;
+    color: #00252E;
+
+}
+
+
+/* Nav bar */
+
 .navbar{
-    width: 90%;
+    width: 1296px;
     height: 196px;
     justify-content: space-between;
     align-items: center;
 }
+
 .main-logo{
     height: 38px;
     width: 280px;
 }
+
 .try-it-free a button{
     height: 40px;
     width:136px;
@@ -58,38 +68,78 @@ h1, h2, h3, h4, h5, h6{
 
 /* hero */
 
-.hero{
-    border: 2px solid black;
-}
 
-.hero-container{
-    width: 90%;
+ .hero{
+    width: 100%;
     height: auto;
-    border: 5px solid red;
+    margin-bottom: 120px;
+    margin-top: 150px;
+
+ }
+
+ .hero-container{
+    width: 80%;
+    height: 100%;
+
     text-align: center;
+    flex-flow: column;
+ }
+ 
+ .hero-container h1{
+    font-size: 48px;
+    margin-bottom: 25px;
 
+ }
+
+ .hero-container p{
+    width: 600px; 
 }
 
-.hero-container h1{
-    font-size:48px;
-}
 
-.hero-container p{
-    width:600px;
-
-}
-    
-
-
-
-
-
-
-.main-button{
-    height: 40px;
+ .hero-container a button{
     width: 400px;
+    height: 80px;
+    margin-top: 50px;
+    
+    border-radius: 40px;
+    border: none;
+    background-color: var(--light-pink);
+    color: #fff;
+    font-size: 20px;
+    font-family: "Open Sans",;
+ }
 
+.hero-img{
+    margin-top: 120px;
+    width: 100%;
+    height: auto;
 }
 
 
+/* Status Section  */
+
+
+
+ .stats{
+    width: 100%;
+    height: auto;
+ }
+
+ .stats-container{
+    width: 80%;
+    justify-content: space-around;
+ }
+
+ .stats-container h2{
+    font-size: 96px;
+ }
+
+ .stats-container p{
+    font-size: 24px;
+    text-align: center;
+    color: #808E9A;
+ }
+
+
+ 
 
