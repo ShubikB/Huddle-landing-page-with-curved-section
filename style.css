@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar{
-    width: 80%;
+    width: 90%;
     height: 196px;
     justify-content: space-between;
     align-items: center;
@@ -60,33 +60,40 @@ h1, h2, h3, h4, h5, h6{
 
 .hero{
     border: 2px solid black;
-    /* flex-flow: column; */
 }
 
-.hero h1{
-    font-size: 48px;
+
+
+
+.hero-container{
+    width: 90%;
+    height: auto;
+    border: 5px solid red;
     text-align: center;
+
+
+}
+
+.hero-container h1{
+    font-size:48px;
 }
 
 .hero-container p{
-    font-size: 20px;
-    text-align: center;
-    width: 600px;
+max-width: 600px;
+margin:0;
+}
     
 
-}
+
+
+
+
+
 .main-button{
     height: 40px;
     width: 400px;
 
 }
 
-.hero-container{
-    width: 80%;
-    height: auto;
-    border: 5px solid red;
-
-    flex-flow: column;
-}
 
 
